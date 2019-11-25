@@ -14,6 +14,15 @@ set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ../bin)
 # Add a shared module - modules are intended to be imported at runtime.
 # - This is where you add the source files
 add_library(TelloPro MODULE src/takeoff.cpp
+							src/up.cpp
+							src/down.cpp
+							src/left.cpp
+							src/right.cpp
+							src/forward.cpp
+							src/back.cpp
+							src/cw.cpp
+							src/ccw.cpp
+							src/flip.cpp
 							src/land.cpp
 							src/python_interface.cpp)
 
